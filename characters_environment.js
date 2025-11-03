@@ -76,7 +76,7 @@ function game(){
     fill(255, 255, 255);
     textSize(40);
     textAlign(CENTER);
-    text("Pressione qualquer tecla direcional para iniciar o jogo", gameConfig.screenX/2, gameConfig.screenY/2);
+    text("Pressione o botao jogar para iniciar o jogo", gameConfig.screenX/2, gameConfig.screenY/2);
     textSize(40);
 
     stroke(255);
