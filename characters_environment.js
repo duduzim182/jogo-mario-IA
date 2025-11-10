@@ -124,7 +124,7 @@ function game(){
 
 // modifique o status do jogo se qualquer tecla for pressionada
 function changeGameStatud(character){
-  if((keyDown(control.up) ||keyDown(control.left)||keyDown(control.right) )&& gameConfig.status==="start") {
+  if(GameStatus === "start" && noseX != ""&& gameConfig.status==="start") {
     world_start.play();
     initializeCharacterStatus(mario);
     gameConfig.status= "play";
